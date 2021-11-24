@@ -75,6 +75,21 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.pg2',
+        'NAME': 'd5c1e29ffkt8tm',
+        'USER': 'ghfpvyqyopzfhq',
+        'PASSWORD': 'e12d1e5af9ba0822b2c53b986843343a9415a7fda77d14a0af69c0b4ecc00f89',
+        'HOST': 'ec2-34-193-113-223.compute-1.amazonaws.com',
+        'PORT': '5432',
+    }
+}
+
+
+
+"""
+Postgresql
 
 DATABASES = {
     'default': {
@@ -86,6 +101,9 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+
+
+"""
 
 
 
