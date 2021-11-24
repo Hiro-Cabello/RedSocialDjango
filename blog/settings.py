@@ -88,7 +88,7 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
-""" 
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql.psycopg2',
@@ -101,7 +101,6 @@ DATABASES = {
 }
 
 
-"""
 
 
 
@@ -124,13 +123,17 @@ DATABASES = {
 
 """
 
-
+"""  
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': str(os.path.join(BASE_DIR, "db.sqlite3"))
     }
 }
+
+
+
+"""
 
 
 
@@ -147,6 +150,8 @@ DATABASES = {
 
 """
 
+#Buen tutorial para el deploy 
+#https://dev.to/fazledyn/deploying-django-3-1-on-heroku-417
 
 
 
